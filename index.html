@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Onlipeliculas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+                            <span class="sr-only">Desplegar / Ocultar Menu</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand">Onlipeliculas</a>
+                    </div>
+                    
+                    <!--inicio del menu-->
+                    <div class="collapse navbar-collapse" id="navegacion">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Inicio</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    Generos <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                     <li><a href="#">Acción</a></li>
+                                     <li><a href="#">Aventura</a></li>
+                                     <li><a href="#">Comedia</a></li>
+                                     <li><a href="#">Ciencia Ficción</a></li>
+                                     <li><a href="#">Musica</a></li>
+                                     <li><a href="#">Terror</a></li>
+                                     
+                                     
+                                </ul>
+                            </li>
+                            <li><a href="#">Series </a></li>
+                            <li><a href="#">Estrenos</a></li>
+                            <li><a href="#">Animes</a></li>
+                        </ul>
+                        
+                            <form action="" class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Buscar">
+                                
+                            </div>
+                            <button type="submit" class="btn btn-success" id="btn_buscar">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                            
+                            
+                            </form>
+                       
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+            </nav>
+        </header> 
+        
+        <section class="main container">
+            <div class="row">
+                <section class="col-md-9">
+                    <div class="migas">
+                        <ol class="breadcrumb">
+                            <li class="active">Inicio</li>
+                        </ol>
+                        
+                    </div>
+                    <div class="post">
+                        <ul class="list-inline head_peliculas">
+                            <li>Estrenos</li>
+                            <li class="ver_todo pull-right"><a href="#">Ver todo</a></li>
+                        </ul>
+                        <ul id="lista_estrenos" class="list-inline">
+
+                        </ul>
+                        
+                    </div>
+                    <div class="post">
+                        
+                        <ul class="list-inline head_peliculas">
+                            <li>Ultimas peliculas añadidas</li>
+                            <li class="ver_todo pull-right"><a href="#">Ver todo</a></li>
+                        </ul>
+                        <ul id="lista_pelicula" class="list-inline">
+
+
+                        </ul>
+                    </div>
+                     <div class="post">
+                        
+                        <ul class="list-inline head_peliculas">
+                            <li>Ultimas series añadidas</li>
+                            <li class="ver_todo pull-right"><a href="#">Ver todo</a></li>
+                        </ul>
+                        <ul id="lista_pelicula" class="list-inline">
+
+
+                        </ul>
+                    </div>
+                    <div class="post">
+                        
+                        <ul class="list-inline head_peliculas">
+                            <li>Ultimos capitulos agregados</li>
+                            <li class="ver_todo pull-right"><a href="#">Ver todo</a></li>
+                        </ul>
+                        <ul id="lista_pelicula" class="list-inline">
+
+
+                        </ul>
+                    </div>
+                    <div class="post">
+                        
+                        <ul class="list-inline head_peliculas">
+                            <li>Ultimos animes agregados</li>
+                            <li class="ver_todo pull-right"><a href="#">Ver todo</a></li>
+                        </ul>
+                        <ul id="lista_pelicula" class="list-inline">
+
+
+                        </ul>
+                    </div>
+                </section>
+                
+                <aside class="col-md-3 hidden-sm hidden-xs" >
+                    <h4>Publicidad</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">Acción</a>
+                        <a href="#" class="list-group-item">Aventura</a>
+                        <a href="#" class="list-group-item">Comedia</a>
+                        <a href="#" class="list-group-item">Ciencia Ficción</a>
+                        <a href="#" class="list-group-item">Musica</a>
+                        <a href="#" class="list-group-item">Terror</a>
+                        
+                    </div>
+                    <h4>Generos</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">Acción</a>
+                        <a href="#" class="list-group-item">Aventura</a>
+                        <a href="#" class="list-group-item">Comedia</a>
+                        <a href="#" class="list-group-item">Ciencia Ficción</a>
+                        <a href="#" class="list-group-item">Musica</a>
+                        <a href="#" class="list-group-item">Terror</a>
+                        
+                    </div>
+                    <h4>Publicidad</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">Acción</a>
+                        <a href="#" class="list-group-item">Aventura</a>
+                        <a href="#" class="list-group-item">Comedia</a>
+                        <a href="#" class="list-group-item">Ciencia Ficción</a>
+                        <a href="#" class="list-group-item">Musica</a>
+                        <a href="#" class="list-group-item">Terror</a>
+                        
+                    </div>
+                    
+                </aside>
+            </div>
+        </section>
+        
+        <footer></footer>
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="controladores/controlador_general.js"></script>
+        <Script type="text/javascript" src="js/bootstrap.min.js"></Script>
+      
+    </body>
+</html>
